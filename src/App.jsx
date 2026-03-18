@@ -1,4 +1,4 @@
-import ReactMarkdown from "react-markdown/lib/react-markdown";
+import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { useState, useRef } from "react";
 import { motion } from "framer-motion";
