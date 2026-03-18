@@ -57,7 +57,7 @@ function App() {
         {
           method: "POST",
           headers: {
-            Authorization: "Bearer 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",
+            Authorization: `Bearer ${import.meta.env.VITE_API_KEY}`,
             "Content-Type": "application/json",
             "HTTP-Referer": "http://localhost:5173",
             "X-Title": "Nova Planner",
